@@ -78,9 +78,8 @@ async function code() {
     } else {
         answers.license = '';
     }; 
-
-
     
+    const walkthrough = '[Walkthrough](https://drive.google.com/file/d/1FCUuSwZvc5UVZC6KiBhhd7-_lSa_GTdr/view?usp=sharing)'
     const readmeContent = `# ${answers.title}
 
 ## Description ${licenses}
@@ -110,6 +109,9 @@ ${answers.contributing}
 
 ## Tests
 ${answers.tests}
+
+## Walkthrough
+${walkthrough}
 
 ## Questions
 ${answers.questions}
